@@ -1,6 +1,6 @@
 #  Example Single mode with the contentDock SDK for iOS 
 
-This is an example project using the contentDock SDK for iOS in single mode.
+This is an example project using the contentDock SDK for iOS in single mode with which you can create simple and fast your own native app.
 
 ## About contentDock
 With the App Construction Kit from contentDock® you can create iOS apps for your business, organization or educational institution - without programming knowledge. 
