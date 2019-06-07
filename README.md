@@ -24,7 +24,8 @@ More information about the SDK Single Mode and how to use the SDK as such can be
 ## Usage of this example
 
 1. Clone the repository with init the sub modules
-`git clone --recursive https://github.com/edit/contentdock-sdk-ios-example-single-mode.git`
+
+* `git clone --recursive https://github.com/edit/contentdock-sdk-ios-example-single-mode.git`
 
 2. Build and start it.
 
