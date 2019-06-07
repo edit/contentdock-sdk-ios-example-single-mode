@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>projectId</key>
+	<string>199</string>
+	<key>isLocalSync</key>
+	<true/>
+	<key>SDKMode</key>
+	<string>single</string>
+	<key>Key</key>
+	<string>40c98964d3c688ed3909ae08f3587c9433929ddb9728a3ef0fd9ea57374798177fe7f14fac10b910fb8efdd632f8104fac51819c754852778f1eb99c4053e7caad</string>
+	<key>Account</key>
+	<string>edit</string>
+	<key>buttonSitemap</key>
+	<string>topLeft</string>
+	<key>buttonImprint</key>
+	<string>notShow</string>
+	<key>buttonComment</key>
+	<string>bottomLeft</string>
+	<key>buttonAudio</key>
+	<string>notShow</string>
+	<key>buttonClose</key>
+	<string>bottomRight</string>
+	<key>localSyncVersion</key>
+	<string>2.16</string>
+	<key>localSyncUpdate</key>
+	<true/>
+</dict>
+</plist>

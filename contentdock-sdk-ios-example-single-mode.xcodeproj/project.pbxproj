@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		939D74DA22AB06CC00690C6C /* CDockFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E77F6F22AA7E30000643CE /* CDockFramework.framework */; };
+		939D74DB22AB06CC00690C6C /* CDockFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 93E77F6F22AA7E30000643CE /* CDockFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F111FF67225A4D28007260A5 /* CDockSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F111FF66225A4D28007260A5 /* CDockSettings.plist */; };
+		F1B7EDB52279F18B00666ECA /* contentdock.caap in Resources */ = {isa = PBXBuildFile; fileRef = F1B7EDB42279F0E600666ECA /* contentdock.caap */; };
+		F1BAFD5B22523F940047A7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BAFD5A22523F940047A7C2 /* Assets.xcassets */; };
+		F1BAFD5E22523F940047A7C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BAFD5C22523F940047A7C2 /* LaunchScreen.storyboard */; };
+		F1BAFD6122523F940047A7C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BAFD6022523F940047A7C2 /* main.m */; };
+		F1BAFD732252445F0047A7C2 /* CustomElementsFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BAFD722252445F0047A7C2 /* CustomElementsFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		939D74DC22AB06CC00690C6C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				939D74DB22AB06CC00690C6C /* CDockFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93E77F6F22AA7E30000643CE /* CDockFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CDockFramework.framework; path = contentdock/CDockFramework.framework; sourceTree = "<group>"; };
+		F111FF66225A4D28007260A5 /* CDockSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CDockSettings.plist; sourceTree = "<group>"; };
+		F1B7EDB42279F0E600666ECA /* contentdock.caap */ = {isa = PBXFileReference; lastKnownFileType = file; path = contentdock.caap; sourceTree = "<group>"; };
+		F1BAFD4E22523F930047A7C2 /* contentdock-sdk-ios-example-single-mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contentdock-sdk-ios-example-single-mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BAFD5A22523F940047A7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BAFD5D22523F940047A7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1BAFD5F22523F940047A7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BAFD6022523F940047A7C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1BAFD712252445E0047A7C2 /* contentdock-sdk-ios-example-single-mode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contentdock-sdk-ios-example-single-mode-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1BAFD722252445F0047A7C2 /* CustomElementsFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomElementsFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BAFD4B22523F930047A7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D74DA22AB06CC00690C6C /* CDockFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BAFD4522523F930047A7C2 = {
+			isa = PBXGroup;
+			children = (
+				F1BAFD5022523F930047A7C2 /* contentdock-sdk-ios-example-single-mode */,
+				F1BAFD4F22523F930047A7C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BAFD4F22523F930047A7C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BAFD4E22523F930047A7C2 /* contentdock-sdk-ios-example-single-mode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BAFD5022523F930047A7C2 /* contentdock-sdk-ios-example-single-mode */ = {
+			isa = PBXGroup;
+			children = (
+				93E77F6F22AA7E30000643CE /* CDockFramework.framework */,
+				F1BAFD722252445F0047A7C2 /* CustomElementsFunctions.swift */,
+				F1BAFD6722523FAE0047A7C2 /* Support files */,
+				F1BAFD712252445E0047A7C2 /* contentdock-sdk-ios-example-single-mode-Bridging-Header.h */,
+			);
+			path = "contentdock-sdk-ios-example-single-mode";
+			sourceTree = "<group>";
+		};
+		F1BAFD6722523FAE0047A7C2 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				F1B7EDB42279F0E600666ECA /* contentdock.caap */,
+				F111FF66225A4D28007260A5 /* CDockSettings.plist */,
+				F1BAFD5A22523F940047A7C2 /* Assets.xcassets */,
+				F1BAFD5C22523F940047A7C2 /* LaunchScreen.storyboard */,
+				F1BAFD5F22523F940047A7C2 /* Info.plist */,
+				F1BAFD6022523F940047A7C2 /* main.m */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BAFD4D22523F930047A7C2 /* contentdock-sdk-ios-example-single-mode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BAFD6422523F940047A7C2 /* Build configuration list for PBXNativeTarget "contentdock-sdk-ios-example-single-mode" */;
+			buildPhases = (
+				F1BAFD4A22523F930047A7C2 /* Sources */,
+				F1BAFD4B22523F930047A7C2 /* Frameworks */,
+				F1BAFD4C22523F930047A7C2 /* Resources */,
+				939D74DC22AB06CC00690C6C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "contentdock-sdk-ios-example-single-mode";
+			productName = "contentdock-sdk-ios-example-single-mode";
+			productReference = F1BAFD4E22523F930047A7C2 /* contentdock-sdk-ios-example-single-mode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BAFD4622523F930047A7C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = edit;
+				TargetAttributes = {
+					F1BAFD4D22523F930047A7C2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = F1BAFD4922523F930047A7C2 /* Build configuration list for PBXProject "contentdock-sdk-ios-example-single-mode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BAFD4522523F930047A7C2;
+			productRefGroup = F1BAFD4F22523F930047A7C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BAFD4D22523F930047A7C2 /* contentdock-sdk-ios-example-single-mode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BAFD4C22523F930047A7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BAFD5E22523F940047A7C2 /* LaunchScreen.storyboard in Resources */,
+				F111FF67225A4D28007260A5 /* CDockSettings.plist in Resources */,
+				F1BAFD5B22523F940047A7C2 /* Assets.xcassets in Resources */,
+				F1B7EDB52279F18B00666ECA /* contentdock.caap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BAFD4A22523F930047A7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BAFD6122523F940047A7C2 /* main.m in Sources */,
+				F1BAFD732252445F0047A7C2 /* CustomElementsFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1BAFD5C22523F940047A7C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BAFD5D22523F940047A7C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1BAFD6222523F940047A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1BAFD6322523F940047A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BAFD6522523F940047A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D855L4MSP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contentdock-sdk-ios-example-single-mode",
+					"$(PROJECT_DIR)/contentdock-sdk-ios-example-single-mode/contentdock",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/contentdock-sdk-ios-example-single-mode/Support files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edit.contentdock-sdk-ios-example-single-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "contentdock-sdk-ios-example-single-mode/contentdock-sdk-ios-example-single-mode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F1BAFD6622523F940047A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D855L4MSP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/contentdock-sdk-ios-example-single-mode",
+					"$(PROJECT_DIR)/contentdock-sdk-ios-example-single-mode/contentdock",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/contentdock-sdk-ios-example-single-mode/Support files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edit.contentdock-sdk-ios-example-single-mode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "contentdock-sdk-ios-example-single-mode/contentdock-sdk-ios-example-single-mode-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BAFD4922523F930047A7C2 /* Build configuration list for PBXProject "contentdock-sdk-ios-example-single-mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BAFD6222523F940047A7C2 /* Debug */,
+				F1BAFD6322523F940047A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BAFD6422523F940047A7C2 /* Build configuration list for PBXNativeTarget "contentdock-sdk-ios-example-single-mode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BAFD6522523F940047A7C2 /* Debug */,
+				F1BAFD6622523F940047A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BAFD4622523F930047A7C2 /* Project object */;
+}
