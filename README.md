@@ -12,8 +12,8 @@ Combine the advantages of our construction kit, the workflow and the contentDock
 Develop your individual functions for the apps of your customers and transforms the apps into exclusive native apps in a few simple steps. 
 
 For more information, please visit:
-[contentDock at a glance](https://www.contentdock.com/en)
-[contentDock for developer](https://www.contentdock.com/en/for-developer)
+* [contentDock at a glance](https://www.contentdock.com/en)
+* [contentDock for developer](https://www.contentdock.com/en/for-developer)
 
 ## Documentation contentDock SDK for iOS - Single mode
 More information about the SDK Single Mode and how to use the SDK as such can be found at  [contentDock SDK Single mode Documentation for iOS ](https://www.contentdock.com/en/documentation/sdk-ios/single-mode)
@@ -27,8 +27,9 @@ More information about the SDK Single Mode and how to use the SDK as such can be
 2. Build and start it.
 
 3. Use as login data: 
-user name: `testflight@contentdock.com` 
-password: `contentdock`.
+
+* user name: `testflight@contentdock.com` 
+* password: `contentdock`.
 
 
 ## Important notice
