@@ -16,7 +16,9 @@ For more information, please visit:
 * [contentDock for developer](https://www.contentdock.com/en/for-developer)
 
 ## Documentation contentDock SDK for iOS - Single mode
-More information about the SDK Single Mode and how to use the SDK as such can be found at  [contentDock SDK Single mode Documentation for iOS ](https://www.contentdock.com/en/documentation/sdk-ios/single-mode)
+More information about the SDK Single Mode and how to use the SDK as such can be found at:
+
+* [contentDock SDK Single mode Documentation for iOS ](https://www.contentdock.com/en/documentation/sdk-ios/single-mode)
 
 
 ## Usage of this example
