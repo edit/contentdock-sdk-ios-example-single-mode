@@ -12,6 +12,8 @@
 	<string>40c98964d3c688ed3909ae08f3587c9433929ddb9728a3ef0fd9ea57374798177fe7f14fac10b910fb8efdd632f8104fac51819c754852778f1eb99c4053e7caad</string>
 	<key>Account</key>
 	<string>edit</string>
+	<key>useLocationService</key>
+	<false/>
 	<key>buttonSitemap</key>
 	<string>topLeft</string>
 	<key>buttonImprint</key>
