@@ -25,7 +25,7 @@
 	<key>buttonClose</key>
 	<string>bottomRight</string>
 	<key>localSyncVersion</key>
-	<string>2.16</string>
+	<string>2.34</string>
 	<key>localSyncUpdate</key>
 	<true/>
 </dict>

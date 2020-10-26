@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CDockFramework/AppDelegate.h"
+#import <CDockFramework/AppDelegate.h>
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {

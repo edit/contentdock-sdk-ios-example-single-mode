@@ -51,7 +51,7 @@ class CustomElementsFunctionsSwift: NSObject {
      Calls after device been  rotated.
      */
     @objc class func didRotate() {
-        let orientation = UIApplication.shared.statusBarOrientation
+        let orientation = UIApplication.shared.windows.first(where: { $0.isKeyWindow })?.windowScene?.interfaceOrientation
         if orientation == .landscapeLeft || orientation == .landscapeRight {
             //do something cool
         }
@@ -127,12 +127,10 @@ class VLogin: UIView {
         let btnLogin = UIButton(type: .system)
         btnLogin.frame = CGRect(x: 10, y: 280, width: 200, height: 50)
         btnLogin.setTitle("login", for: .normal)
-        btnLogin.addTarget(self, action: #selector(self.onBtnLoginTapped), for: UIControlEvents.touchUpInside)
+        btnLogin.addTarget(self, action: #selector(self.onBtnLoginTapped), for: UIControl.Event.touchUpInside)
         btnLogin.setCenterX(self.width()/2)
         
         self.addSubview(btnLogin)
-        
-        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -141,11 +139,10 @@ class VLogin: UIView {
     
     @objc func onBtnLoginTapped() {
         CDockSDK.login(with: tfLogin.text ?? "", password: tfPassword.text ?? "", domain: CDockSDK.domain() ?? "") { isSuccess in
-            
             if isSuccess == false {
-                let alert = UIAlertView(title: "", message: "Login failed", delegate: nil, cancelButtonTitle: "Ok")
-                alert.show()
-                
+                let alert = UIAlertController(title: "Login", message: "Login failed!", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+                self.window?.rootViewController?.present(alert, animated: true);
             }
         }
     }
